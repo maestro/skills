@@ -1,6 +1,11 @@
 {
   "version": 1,
   "entries": {
+    "_AnIT012-nihongo": {
+      "source": "https://github.com/AnIT012/nihongo.git",
+      "tracked": true,
+      "branch": "main"
+    },
     "skillshare": {
       "source": "github.com/runkids/skillshare/skills/skillshare",
       "type": "github-subdir",
@@ -32,5 +37,10 @@
         "scripts/run.sh": "sha256:e434ebdb7d3ae0b37c00ddc36687bc975da9e766b8cb863f9aed9a624ebbdfa9"
       }
     }
+  },
+  "target_overrides": {
+    "_AnIT012-nihongo/nihongo": [
+      "claude"
+    ]
   }
 }
